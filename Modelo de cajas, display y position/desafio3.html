@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+    <style>
+        html, body {
+        margin: 0;
+        padding: 0;
+        }
+
+        .container-banderas {
+            background-color: white;
+            border: 1px solid black;           
+            width: 55rem;
+            height: 35rem;
+            left:15rem;
+            position: relative;
+            top: 2rem;
+            left: 15rem;
+        }
+
+        .box-bandera{
+            width: 25rem;
+            height: 15rem;
+            border: 1px solid black;
+            display: inline-block;
+            margin: 1rem;
+            position: relative;
+            box-sizing: content-box;
+        }
+
+        .espana-rojo{
+            height: 4rem;
+            width: 25rem;
+            background-color: red;            
+        }
+
+        .espana-amarillo{
+            background-color: yellow;
+            height: 6rem;
+            width: 25rem;            
+        }
+
+        .dinamarca{
+            background-color: red;
+       }
+
+       .d-vertical{
+           width: 2.5rem;
+           height: 15rem;
+           background-color: white;
+           position: relative;
+           left: 7rem;
+       }
+
+       .d-horizontal{
+            width: 25rem;
+            height: 2.5rem;
+            background-color: white;
+            position: absolute;
+            top: 6rem;
+       }
+
+       .emiratos{
+           position: relative;
+       }
+
+       .emiratos-rojo{
+            width: 5rem;
+            height: 15rem;
+            background-color:red;  
+            position:absolute;     
+       }
+
+       .emiratos-verde{
+            width: 20rem;
+            height: 5rem;
+            background-color: green;
+            position: absolute;
+            left: 5rem;                      
+       }
+
+       .emiratos-negro{
+            width: 20rem;
+            height: 5rem;
+            background-color:black;
+            position: absolute;
+            left: 5rem; 
+            top: 10rem;     
+       }
+
+       .japon{
+            position: relative;    
+       }
+
+       .japon-circulo{
+          background-color: red;
+           width: 7rem;
+           height: 7rem;
+           border-radius: 50%;       
+           position: absolute;
+            top: 27%;
+            left: 35%;                    
+       }       
+
+    </style>
+</head>
+<body>
+    <section class= "container-banderas">
+        <section class="box-bandera espana">
+            <div class="espana-rojo"></div>
+            <div class="espana-amarillo"></div>
+            <div class="espana-rojo"></div>    
+        </section>
+
+        <section class="box-bandera dinamarca">
+            <div class="d-vertical"></div>
+            <div class="d-horizontal"></div>            
+        </section>
+
+        <section class="box-bandera emiratos">
+           <div class="emiratos-rojo"></div> 
+           <div class="emiratos-verde"></div>
+           <div class="emiratos-negro"></div>
+        </section>
+
+        <section class="box-bandera japon">
+            <div class="japon-circulo"></div>            
+        </section>
+    </section>   
+    
+</body>
+</html>
